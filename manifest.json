@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "RUNI Auto Reloader",
+  "version": "1.2",
+  "description": "Reloads Moodle, Yedion, and My RUNI pages for runi.ac.il every 15 minutes to keep sessions active.",
+  "permissions": [
+    "alarms",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png"
+  }
+}
